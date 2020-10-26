@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Gameloop
+Exec=env WINEPREFIX="/home/phucnq/.wine" wine-stable C:\\\\Program\\ Files\\\\TxGameAssistant\\\\AppMarket\\\\AppMarket.exe 
+Type=Application
+StartupNotify=true
+Comment=Gameloop
+Icon=C71D_AppMarket.0
+StartupWMClass=appmarket.exe

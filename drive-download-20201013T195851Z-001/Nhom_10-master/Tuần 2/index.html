@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập thông tin</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="form">
+        <div class="title">ENTER YOUR INFORMATION</div>
+        <form method="POST" action="profile.php" enctype="multipart/form-data">
+            <div class="row marginBot20">
+                <div class="col-3">Name:</div>
+                <div class="col-9">
+                    <input type="text" name="name" class="inputText" placeholder="Your name" required>
+                </div>
+            </div>
+            <div class="row marginBot20">
+                <div class="col-3">Class:</div>
+                <div class="col-9">
+                    <input type="text" name="class" class="inputText form-input" placeholder="Your class" required>
+                </div>
+            </div>
+            <div class="row marginBot20">
+                <div class="col-3">University:</div>
+                <div class="col-9">
+                    <input type="text" name="university" class="inputText form-input" placeholder="Your university"
+                        required>
+                </div>
+            </div>
+            <div class="row marginBot20">
+                <div class="col-3">Hobbies:</div>
+                <div class="col-9" required>
+                    <input type="checkbox" name="hobbies[]" value="Listening to music"> Listening to music <br>
+                    <input type="checkbox" name="hobbies[]" value="Watching movies"> Watching movies <br>
+                    <input type="checkbox" name="hobbies[]" value="Playing sports"> Playing sports <br>
+                    <input type="checkbox" name="hobbies[]" value="Reading books"> Reading books <br>
+                    <input type="checkbox" name="hobbies[]" value="Cooking"> Cooking <br>
+                </div>
+            </div>
+            <div class="row marginBot20">
+                <div class="col-3">Gender:</div>
+                <div class="col-9">
+                    <input type="radio" name="gender" value="1" checked> Male
+                    <input type="radio" name="gender" value="0" style="margin-left: 40px;"> Female
+                </div>
+            </div>
+            <div class="row marginBot20">
+                <div class="col-3">Birthday:</div>
+                <div class="col-9">
+                    <input type="date" name="birthday" class="inputText">
+                </div>
+            </div>
+            <div class="row marginBot20">
+                <div class="col-3">Address:</div>
+                <div class="col-9">
+                    <textarea name="address" placeholder="Your address" class="form-input inputTextArea"
+                        required></textarea>
+                </div>
+            </div>
+            <div class="row marginBot20">
+                <div class="col-3">Overview:</div>
+                <div class="col-9">
+                    <textarea name="overview" placeholder="Overview" class=" form-input inputTextArea"></textarea>
+                </div>
+            </div>
+            <div class="row marginBot20">
+                <div class="col-3">Career:</div>
+                <div class="col-9">
+                    <select class="inputSelect" name="career">
+                        <option value="Mechanic Engineering">Mechanic Engineering</option>
+                        <option value="Software Engineering">Software Engineering</option>
+                        <option value="Hardware Engineering">Hardware Engineering</option>
+                        <option value="Material Engineering">Material Engineering</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row marginBot40">
+                <div class="col-3">Your avatar: </div>
+                <div class="col-9">
+                    <input type="file" name="avatar" class="inputFile" accept="image/*" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4"> </div>
+                <div class="col-4">
+                    <button type="submit" name="sendData" class="sendButton">Send</button>
+                    <button type="reset" value="Reset" class="resetButton">Reset</button>
+                </div>
+                <div class="col-4"> </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        document.getElementsByName('birthday')[0].valueAsDate = new Date();
+    </script>
+</body>
+
+</html>

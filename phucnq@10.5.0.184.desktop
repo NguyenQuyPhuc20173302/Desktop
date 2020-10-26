@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=phucnq@10.5.0.184
+Exec=env WINEPREFIX="/home/phucnq/.wine" wine-stable C:\\\\Program\\ Files\\\\WinSCP\\\\WinSCP.exe \\"phucnq%4010.5.0.184\\"\\ /Desktop\\ /UploadIfAny
+Type=Application
+StartupNotify=true
+Comment=Opens site 'phucnq@10.5.0.184'
+Host: 10.5.0.184
+User name: phucnq
+Private key file: Yes
+Transfer protocol: SFTP (SCP)
+Icon=C88E_WinSCP.1
+StartupWMClass=winscp.exe

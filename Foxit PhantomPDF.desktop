@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Foxit PhantomPDF
+Exec=env WINEPREFIX="/home/phucnq/.wine" wine-stable C:\\\\Program\\ Files\\\\Foxit\\ Software\\\\Foxit\\ PhantomPDF\\\\FoxitPhantomPDF.exe 
+Type=Application
+StartupNotify=true
+Icon=CE87_FoxitPhantomPDF.0
+StartupWMClass=foxitphantompdf.exe

@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+}
+.col-1 {
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%;
+}
+.col-2 {
+  flex: 0 0 16.66666%;
+  max-width: 16.66666%;
+}
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.col-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+.col-5 {
+  flex: 0 0 41.66666%;
+  max-width: 41.66666%;
+}
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.col-7 {
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%;
+}
+.col-8 {
+  flex: 0 0 66.66666%;
+  max-width: 66.66666%;
+}
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.col-10 {
+  flex: 0 0 83.33333%;
+  max-width: 83.33333%;
+}
+.col-11 {
+  flex: 0 0 91.66666%;
+  max-width: 91.66666%;
+}
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.form {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 10%;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  box-shadow: 0 1px 20px 0 rgb(113, 239, 248);
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1cfafa;
+  font-size: 28px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.marginBot20 {
+  margin-bottom: 20px;
+}
+.marginBot40 {
+  margin-bottom: 40px;
+}
+.inputText {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid rgb(108, 247, 247);
+}
+.inputTextArea {
+  width: 90%;
+  height: 80px;
+  padding: 8px;
+  border: 1px solid rgb(108, 247, 247);
+}
+.inputSelect {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid rgb(108, 247, 247);
+}
+.inputFile {
+  cursor: pointer;
+}
+.sendButton {
+  width: 100%;
+  padding: 12px;
+  color: #fff;
+  background-color: #1cc88a;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.resetButton {
+  width: 100%;
+  padding: 12px;
+  color: #fff;
+  background-color: #c81c25;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.sendButton:hover {
+  opacity: 0.8;
+}
